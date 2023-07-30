@@ -9,7 +9,7 @@ const port = 3000 || process.env; // Change this to your desired port
 
 // Configuration OpenAI  API
 const { Configuration, OpenAIApi } = require("openai");
-const configuration = new Configuration({ apiKey: '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'});
+const configuration = new Configuration({ apiKey: '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'});
 const openai = new OpenAIApi(configuration);
 
 app.use(express.json());
