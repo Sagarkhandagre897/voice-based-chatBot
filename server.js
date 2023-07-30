@@ -5,7 +5,7 @@ const path = require('path');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
-const port = 3000 || process.env; // Change this to your desired port
+const port = 3000 || process.env.PORT; // Change this to your desired port
 
 // Configuration OpenAI  API
 const { Configuration, OpenAIApi } = require("openai");
