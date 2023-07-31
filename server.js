@@ -44,7 +44,7 @@ app.post('/process', async (req, res) => {
     model:'text-davinci-002',
     prompt: voiceInput,
     temperature: 0.5,
-    max_tokens: 30
+    max_tokens: 150
   })
 
      const gptTextResponse = gptResponse.data.choices[0].text;
